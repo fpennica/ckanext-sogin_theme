@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block home_image_caption %}
+  {{ _("Sistema di ricerca e gestione del database SIDEN") }}
+{% endblock %}
+     
+{% block home_image_content %}
+    <a class="media-image" href="#">
+      <img src="{{ h.url_for_static('/images/logo_sogin.png') }}" alt="Promoted image" width="320" height="220" />
+    </a>
+{% endblock %}
